@@ -1,0 +1,37 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  
+
+  /* Reset default list styles */
+  .navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Background color for the navbar */
+  }
+  
+  .navbar li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Spacing between list items */
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0; /* Remove right margin from the last item */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff; /* Text color for the links */
+    font-weight: bold; /* Bold font for links */
+    padding: 10px 15px; /* Padding for the links */
+    border-radius: 4px; /* Rounded corners for the links */
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* Background color on hover */
+  }
