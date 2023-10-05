@@ -3,7 +3,7 @@ export default function home() {
 
     return(
         <>
-         <h1>Welcome to My Cars</h1>
+         <h2>Welcome to My Cars</h2>
         </>
     )
 }

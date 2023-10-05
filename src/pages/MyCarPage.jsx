@@ -24,7 +24,7 @@ export default function cars() {
     useEffect(() => {
         async function performGetCars() {
             const cars = await getCar(userToken);
-            console.log(cars)
+            // console.log(cars)
             setCars(cars);
         } 
         if(userToken) {
@@ -45,7 +45,7 @@ export default function cars() {
     
     return(
         <>
-         <h1>My Cars</h1>
+         <h2>My Cars</h2>
          <Car car={cars}/>
          {/* <Model model={models} /> */}
         </>
