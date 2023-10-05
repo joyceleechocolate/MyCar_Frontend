@@ -24,12 +24,16 @@ const Car = ({car}) => {
         <>
         {car.map((car, index) => (
             <div key={`a${index}`}>
+            <h3>Make: {models[index].make}</h3>
+            <h3>Make: {models[index].model}</h3>
             <h3>Number of Owners: {car.number_of_owners}</h3>
             <h3>Manufacture Year: {car.manufacture_year}</h3>
             <h3>Registration Number: {car.registration_number}</h3>
             <h3>Mileage: {car.mileage}</h3>
+            <br />
             </div>
         ) )}
+    
         {/* <h3>{car[0].mileage}</h3>
         <h3>{car[1].mileage}</h3>
         <h3>{car[2].mileage}</h3> */}
